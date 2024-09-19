@@ -26,3 +26,7 @@ function fibonacci(n) {
 }
 
 console.log(fibonacci(5))
+
+
+
+//Named function using html script
