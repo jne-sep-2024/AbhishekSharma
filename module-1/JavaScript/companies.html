@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script type="text/javascript" src="companies.json"> </script> -->
+</head>
+
+<body>
+    <script>
+        let companies = `  [
+    {
+        "name": "Abhishek",
+        "place": "Varanasi",
+        "email": "ab.@",
+        "phone": null
+    },
+    {
+        "name": "Rohit",
+        "place": "Varanasi",
+        "email": "rv.@",
+        "phone": "123456"
+    },
+
+    {
+        "name": "Santosh",
+        "place": "Varanasi",
+        "email": "sp.@",
+        "phone": "17667565456"
+
+    }
+]`
+
+        //log.parse...to convert string in javascript object
+        console.log(JSON.parse(companies));
+        //if we want to fetch something specific data
+        console.log(JSON.parse(companies)[0].name);
+    </script>
+
+
+</body>
+
+</html>
