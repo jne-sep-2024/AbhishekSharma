@@ -1,3 +1,5 @@
+const { log } = require("async");
+
 const items = [
     { name: "Rice", price: 100 },
     { name: "Wheat", price: 80 },
@@ -76,3 +78,15 @@ let arr = [1, 2, 3, 4, 5];
 
 const includeMethod = arr.includes(4);
 console.log("Includes Method: " + includeMethod);
+
+const number = [1, 2, 3, 4, 5];
+
+const addVal = number.reduce((accumulator, currentValue) => {
+
+    console.log(accumulator);
+    console.log(currentValue);
+
+    return accumulator + currentValue;
+}, 0); //here 0 is assigned to accumulator
+
+console.log('Add value:', addVal);

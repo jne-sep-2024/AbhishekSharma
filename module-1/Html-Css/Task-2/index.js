@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 });
 
+let updateRowId = null;
+
 function getPost() {
 
     let todo = document.getElementById('todo_list');
@@ -24,6 +26,37 @@ function getPost() {
     let status = document.getElementById('status');
 
     let resultBody = document.getElementById("resultBody");
+
+    //This is also not working
+    // if (updateRowId !== null) {
+
+    //     //trying to get id by row_Id here
+
+
+    //     let rows = resultBody.getElementsByTagName('tr');
+
+    //     for (const row of rows) {
+
+    //         if (row.getAttribute('data_id') === updateRowId.toString()) {
+
+    //             //Adding element at the index position
+    //             row.children[0].textContent = todo.value;
+    //             row.children[1].textContent = duedate.value;
+    //             row.children[2].textContent = status.value;
+
+    //             //Reassiging the value as empty string
+    //             todo.value = "";
+    //             duedate.value = "";
+    //             status.value = "";
+    //             updateRowId = null;
+    //             return;
+
+    //         }
+    //     }
+    // }
+
+
+
 
     // Created a new row
     let newRow = document.createElement("tr");
@@ -45,7 +78,7 @@ function getPost() {
     let rowId = Date.now();
     newRow.setAttribute('data_id', rowId);
 
-    //Create update button
+    //Created update button
     let updateButton = document.createElement("button");
     updateButton.textContent = "Update";
     updateButton.onclick = function () {
@@ -91,10 +124,11 @@ function getPost() {
 
 }
 
+// This is not working
 // let updateRowId = null;
 // function updateFunction() {
 
-//     if (updateRowId == null) {
+//     if (updateRowId === null) {
 //         console.log("Nothing to update");
 //         return;
 
@@ -106,4 +140,28 @@ function getPost() {
 //     let status = document.getElementById('status');
 //     let resultBody = document.getElementById("resultBody");
 
+//     let rows = resultBody.getElementById('tr');
+
+//     for (const row of rows) {
+//         if (row.getAttribute('data_id') === updateRowId.toString()) {
+
+//             //Adding element at the index position
+//             row.children[0].textContent = todo.value;
+//             row.children[1].textContent = duedate.value;
+//             row.children[2].textContent = status.value;
+
+//             //Reassiging the value as empty string
+//             todo.value = "";
+//             duedate.value = "";
+//             status.value = "";
+//             updateRowId = null;
+//             return;
+
+//         }
+
+//         console.log('Row is not found');
+
+//     }
+
 // }
+
