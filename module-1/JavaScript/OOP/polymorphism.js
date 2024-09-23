@@ -23,7 +23,11 @@ class Cat extends Animal {
     }
 }
 
+<<<<<<< HEAD
 const animals = [new Dog('Max'), new Cat('Kitty')];
+=======
+const animals = [new Dog('Max'), new Cat('Coco')];
+>>>>>>> feature/day-8
 
 animals.forEach((animal) => {
     animal.speak();

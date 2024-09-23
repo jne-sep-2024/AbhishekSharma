@@ -1,5 +1,9 @@
 .custom-scrollbar {
+<<<<<<< HEAD
     width: 20  0px;
+=======
+    width: 200px;
+>>>>>>> feature/day-8
     height: 100px;
     overflow: auto;
     border: 10 px solid #ccc;

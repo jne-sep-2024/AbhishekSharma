@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Abhishek",
+        "place": "Varanasi",
+        "email": "ab.@",
+        "phone": null
+    },
+    {
+        "name": "Rohit",
+        "place": "Varanasi",
+        "email": "rv.@",
+        "phone": "123456"
+    }
+]

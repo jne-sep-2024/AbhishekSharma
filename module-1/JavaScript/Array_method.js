@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+const { log } = require("async");
+
+>>>>>>> feature/day-8
 const items = [
     { name: "Rice", price: 100 },
     { name: "Wheat", price: 80 },
@@ -34,7 +39,11 @@ const findMethod = items.find((item) => {
     return item.name == 'Rice';
 });
 
+<<<<<<< HEAD
 console.log(findMethod);
+=======
+console.log('Find method:', findMethod);
+>>>>>>> feature/day-8
 
 //forEach
 
@@ -77,6 +86,7 @@ let arr = [1, 2, 3, 4, 5];
 const includeMethod = arr.includes(4);
 console.log("Includes Method: " + includeMethod);
 
+<<<<<<< HEAD
 //Reduce Method
 const number = [1, 2, 3, 4, 5];
 // let sum = 0;
@@ -93,3 +103,16 @@ let sumNumber = number.reduce((accumulator, currValue) => {
 
 console.log(sumNumber);
 
+=======
+const number = [1, 2, 3, 4, 5];
+
+const addVal = number.reduce((accumulator, currentValue) => {
+
+    console.log(accumulator);
+    console.log(currentValue);
+
+    return accumulator + currentValue;
+}, 0); //here 0 is assigned to accumulator
+
+console.log('Add value:', addVal);
+>>>>>>> feature/day-8

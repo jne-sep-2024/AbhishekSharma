@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> feature/day-8
 * {
     /* No extra margin */
     margin: 0;
@@ -14,8 +17,11 @@
     /* text will be white color */
     color: white;
     display: flex;
+<<<<<<< HEAD
     align-items: center;
     justify-content: space-evenly;
+=======
+>>>>>>> feature/day-8
 }
 
 .nav-logo {
@@ -42,6 +48,7 @@
 .add-first {
     color: #cccccc;
     font-size: 0.85rem;
+<<<<<<< HEAD
     margin-left: 15px;
 }
 
@@ -109,3 +116,13 @@ span {
     font-size: 0.7rem;
 } */
 >>>>>>> Stashed changes
+=======
+}
+
+.add-second{
+    font-size: 1rem;
+}
+.add-icon {
+    display: flex;
+}
+>>>>>>> feature/day-8
