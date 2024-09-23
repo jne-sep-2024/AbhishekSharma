@@ -58,7 +58,6 @@ const obj = {
 }
 console.log('Before adding: ', obj);
 
-
 obj.city = "Varanasi";
 console.log('After adding city:', obj);
 

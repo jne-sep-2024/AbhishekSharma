@@ -36,7 +36,7 @@ const findMethod = items.find((item) => {
     return item.name == 'Rice';
 });
 
-console.log(findMethod);
+console.log('Find method:', findMethod);
 
 //forEach
 
