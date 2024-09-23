@@ -23,5 +23,6 @@ public class GameRunner {
         game.down();
         game.left();
         game.right();
+
     }
 }
