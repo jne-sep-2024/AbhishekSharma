@@ -1,7 +1,5 @@
-package com.learnspringframwork.learn_spring_framework;
+package com.learnspringframwork.learn_spring_framework.game;
 
-import com.learnspringframwork.learn_spring_framework.game.GameRunner;
-import com.learnspringframwork.learn_spring_framework.game.GamingConsole;
 import org.springframework.context.annotation.*;
 
 @Configuration
