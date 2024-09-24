@@ -63,7 +63,11 @@ let result = addition(1, 2);
 console.log(result);
 
 
+<<<<<<< HEAD
+//Creating function for Multiplication
+=======
 //Creating fuyunction for Multiplication
+>>>>>>> feature/day-8
 function mul() {
     let val = 1;
 
