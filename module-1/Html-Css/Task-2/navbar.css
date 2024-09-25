@@ -1,0 +1,24 @@
+/* Navbar */
+.navbar {
+    margin-left: 200px;
+    /* / display: flex; */
+    /* flex-direction: row-reverse; */
+    /* align-items: center; */
+    justify-content: flex-end;
+    height: 40px;
+    width: 85.5%;
+    background-color: rgba(29, 4, 4, 0.541);
+}
+
+/* #h2 {
+    margin: 0;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 18px;
+} */
+
+/* .name {
+    margin: 0;
+    text-align: right;
+    float: right;
+} */

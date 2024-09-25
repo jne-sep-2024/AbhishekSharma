@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post_HTML</title>
+    <link rel="stylesheet" href="poststyle.css">
+</head>
+
+<body>
+    <div id="sidebar">
+
+    </div>
+
+    <div id="navbar">
+
+    </div>
+
+    <div class="postContent">
+        <!-- 
+        <form id="usePost"> -->
+        <label for="todo_list">TODO</label>
+        <input type="text" id="todo_list" name="todo_list" required>
+
+        <label for="due_date"> DUE DATE </label>
+        <input type="date" id="due_date" name="due_date" required>
+
+        <label for="status">STATUS</label>
+        <input type="text" id="status" name="status" required>
+
+        <button type="button" onclick="getPost()" class="post_todo">ADD TASK</button>
+        <!-- </form> -->
+    </div>
+
+    <table id="resultTable">
+        <thead>
+            <tr>
+                <th>TODO</th>
+                <th>DUE DATE</th>
+                <th>STATUS</th>
+                <th>DELETE</th>
+                <th>UPDATE</th>
+            </tr>
+        </thead>
+
+        <tbody id="resultBody">
+        </tbody>
+
+    </table>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
