@@ -56,8 +56,13 @@ function fetchData(getName, getNextData) {
 //IIFE
 
 (async function () {
+<<<<<<< HEAD
+    // console.log("Getting data 1...");
+    await fetchData("Getting data 1..." + 1);
+=======
     console.log("Getting data 1...");
     await fetchData(1);
+>>>>>>> feature/day-8
     console.log("Getting data 2...");
     await fetchData(2);
     console.log("Getting data 3...");
