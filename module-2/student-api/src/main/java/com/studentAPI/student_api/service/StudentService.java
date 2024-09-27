@@ -6,5 +6,4 @@ import com.studentAPI.student_api.request.StudentRequest;
 public interface StudentService {
 
     Student saveData(StudentRequest student);
-
 }
