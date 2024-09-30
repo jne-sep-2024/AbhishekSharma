@@ -26,5 +26,9 @@ function cons1() {
 }
 
 let obj = new cons1();
+<<<<<<< HEAD
+console.log(obj.name);
+=======
 console.log(obj.name);
 
+>>>>>>> feature/day-8
