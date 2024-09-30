@@ -12,7 +12,9 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-//    @GeneratedValue(strategy = GenerationType.UUID)
+    //    @GeneratedValue(strategy = GenerationType.UUID)
+    //By adding this I am able to delete a row by using uuid
+    @Column(unique = true)
     private UUID uuid = UUID.randomUUID();
 
     private String firstName;
