@@ -1,5 +1,6 @@
 package com.studentAPI.student_api.service;
 
+import com.studentAPI.student_api.repository.BasicUserInfoDTO;
 import com.studentAPI.student_api.entity.Student;
 import com.studentAPI.student_api.request.StudentRequest;
 
@@ -25,4 +26,13 @@ public interface StudentService {
 
     //Update a row
     Student updateByUuid(UUID uuid, StudentRequest studentRequest);
+
+    //Fetching data using JPQL
+    List<Student> getAllDataJPQL();
+
+    //Fetch data using Native Query
+    List<Student> getAllDataNQ();
+
+    //fetching only first and last name using JPQL
+    List<BasicUserInfoDTO> getSomeUserData();
 }

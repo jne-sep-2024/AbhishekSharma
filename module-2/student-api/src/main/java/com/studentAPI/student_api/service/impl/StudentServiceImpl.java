@@ -1,5 +1,6 @@
 package com.studentAPI.student_api.service.impl;
 
+import com.studentAPI.student_api.repository.BasicUserInfoDTO;
 import com.studentAPI.student_api.entity.Student;
 import com.studentAPI.student_api.repository.StudentRepository;
 import com.studentAPI.student_api.request.StudentRequest;
@@ -8,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -77,5 +79,22 @@ public class StudentServiceImpl implements StudentService {
             return null;
         }
     }
+
+    @Override
+    public List<Student> getAllDataJPQL() {
+        return studentRepository.getAllDataJPQL();
+    }
+
+    @Override
+    public List<Student> getAllDataNQ() {
+        return studentRepository.getAllDataNQ();
+    }
+
+    @Override
+    public List<BasicUserInfoDTO> getSomeUserData() {
+
+        return studentRepository.findAllUserBasicInfo();
+    }
+
 
 }

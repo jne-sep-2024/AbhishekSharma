@@ -1,4 +1,4 @@
-package com.studentAPI.student_api.request;
+package com.studentAPI.student_api.repository;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,10 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class StudentRequest {
+
+public class BasicUserInfoDTO {
 
     private String firstName;
     private String lastName;
-    private String email;
-    private String address;
 }
