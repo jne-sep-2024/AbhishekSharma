@@ -1,0 +1,25 @@
+img {
+    margin-left: 10px;
+    border-radius: 40%;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    box-sizing: border-box;
+    position: fixed;
+    background-color: #f0f0f0;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    color: #000;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}

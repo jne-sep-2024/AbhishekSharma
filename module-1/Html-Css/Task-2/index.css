@@ -1,0 +1,28 @@
+/* .main {
+    display: flex;
+    /* height: 100vh; */
+ 
+
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    position: fixed;
+    height: 100%;
+}
+
+/* Navbar styling */
+.navbar {
+    margin-left: 500px;
+    /* / display: flex; */
+    /* flex-direction: row-reverse; */
+    /* align-items: center; */
+    justify-content: flex-end;
+    height: 40px;
+    width: 85.5%;
+    background-color: rgba(29, 4, 4, 0.541);
+}
+
+#para{
+    margin-left: 350px;
+}
