@@ -1,15 +1,17 @@
-package com.studentAPI.student_api;
+package com.service.Different_Service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class StudentApiApplication {
+public class DifferentServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(StudentApiApplication.class, args);
+
+        SpringApplication.run(DifferentServiceApplication.class, args);
     }
 
 

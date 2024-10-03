@@ -1,10 +1,23 @@
-edureka:
-  instance:
-    hostname: localhost
-
-#client:
-#  register-with-eureka: false
-#  fetch-registry: false
-
 server:
-  port: 8761
+  port: 8081
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+
+spring:
+  application:
+    name: student-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
