@@ -1,4 +1,8 @@
 class Animal {
+<<<<<<< HEAD
+
+=======
+>>>>>>> feature/day-8
     constructor(name) {
         this.name = name;
     }
@@ -10,6 +14,10 @@ class Animal {
 }
 
 class Dog extends Animal {
+<<<<<<< HEAD
+
+=======
+>>>>>>> feature/day-8
     constructor(name, breed) {
         super(name);
         this.breed = breed;

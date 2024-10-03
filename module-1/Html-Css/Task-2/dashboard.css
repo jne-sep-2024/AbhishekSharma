@@ -1,0 +1,17 @@
+/* * {
+    display: flex;
+} */
+
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    position: fixed;
+    height: 100%;
+}
+
+.dashboardContent {
+    margin-left: 270px;
+    /* Adjust based on sidebar width */
+    padding: 15px;
+}
