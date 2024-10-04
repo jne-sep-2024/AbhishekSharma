@@ -1,4 +1,4 @@
-package feign;
+package response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,6 +11,7 @@ import java.util.UUID;
 @AllArgsConstructor
 public class Student {
 
+    private long id;
     private UUID uuid;
     private String firstName;
     private String lastName;

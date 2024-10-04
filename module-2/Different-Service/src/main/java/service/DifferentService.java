@@ -1,19 +1,11 @@
 package service;
 
-import feign.FeignInterface;
-import feign.Student;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import response.Student;
 
 import java.util.List;
 
-@Service
-public class DifferentService {
+public interface DifferentService {
 
-    @Autowired
-    private FeignInterface feignInterface;
+    List<Student> getAllStudents();
 
-    public List<Student> fetchAllStudent() {
-        return feignInterface.getAllStudent();
-    }
 }

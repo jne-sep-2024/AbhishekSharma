@@ -19,6 +19,14 @@ spring:
           lower-case-service-id: true
       routes:
         - id: student-service
-          uri: lb://int-jne-056:student-service:8081
+          uri: lb://student-service
           predicates:
             - Path=/api/students/**
+
+        - id: different-service
+          uri: lb://different-service
+          predicates:
+            - Path=/api/different/**
+
+
+#  int-jne-056:student-service:8081

@@ -12,3 +12,6 @@ eureka:
 spring:
   application:
     name: different-service
+#  cloud:
+#    config:
+#      enabled: false

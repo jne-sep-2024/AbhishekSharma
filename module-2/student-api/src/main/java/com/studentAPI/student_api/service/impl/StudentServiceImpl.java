@@ -4,7 +4,7 @@ import com.studentAPI.student_api.repository.BasicUserInfoDTO;
 import com.studentAPI.student_api.entity.Student;
 import com.studentAPI.student_api.repository.StudentRepository;
 import com.studentAPI.student_api.request.StudentRequest;
-import com.studentAPI.student_api.service.StudentService;//
+import com.studentAPI.student_api.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
