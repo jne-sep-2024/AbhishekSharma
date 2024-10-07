@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+//const { forEach } = require("async");
+=======
 const { forEach } = require("async");
+>>>>>>> feature/day-8
 
 function square(element) {
     return Math.pow(element, 2);
