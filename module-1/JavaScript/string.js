@@ -75,3 +75,13 @@ for (let index = 0; index < sStr.length; index++) {
     console.log(`Ascii value of ${sStr[index]} is: ${sStr.charCodeAt(index)}`);
 }
 
+
+let str100 = 'Hello World';
+
+let slice1 = str100.slice(1, 8);
+console.log("Slice: " + slice1);
+
+let substring1 = str100.substring(1, 8);
+console.log("Substring: " + substring1);
+
+
